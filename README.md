@@ -34,7 +34,7 @@ All of these packages would have to be downloaded in order to run the notebooks.
 ## Section 2 -- Directory Map
 ds4002_project1/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── data/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── speech_data.csv<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── speech_data.parquet<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── output/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── analysis_output.md<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── scripts/<br>
@@ -63,8 +63,8 @@ import pandas as pd
 
 base_path = '/content/drive/MyDrive/DS4002_Project/Data/'
 
-glacier_df = pd.read_csv(base_path + 'glacier_combined.csv')
-nonglacier_df = pd.read_csv(base_path + 'nonglacier_combined.csv')
+glacier_df = pd.read_parquet(base_path + 'glacier_combined.parquet')
+nonglacier_df = pd.read_parquet(base_path + 'nonglacier_combined.parquet')
 MyDrive/DS4002_Project/Data/
 
 Then modify the relevant cells to:
