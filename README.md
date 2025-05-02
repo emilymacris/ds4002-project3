@@ -38,7 +38,10 @@ ds4002_project1/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── output/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── analysis_output.md<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── scripts/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── project_3.ipynb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── Analysis.ipynb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── EDA.ipynb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;├── EDA1.ipynb<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── project_3.ipynb<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── LICENSE.md<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── README.md<br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── DATA_APPENDIX.pdf<br>
